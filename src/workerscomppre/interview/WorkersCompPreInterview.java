@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package workmanscomppre.interview;
+package workerscomppre.interview;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -18,7 +18,7 @@ import java.util.stream.Collectors;
  *
  * @author Rodney
  */
-public class WorkmansCompPreInterview {
+public class WorkersCompPreInterview {
 
 	List<CellPhone> cellPhoneData = new ArrayList<>();
 	List<CellPhoneUsageByMonth> cellPhoneUsageData = new ArrayList<>();
@@ -38,7 +38,7 @@ public class WorkmansCompPreInterview {
 	 */
 	public static void main(String[] args) {
 		
-		WorkmansCompPreInterview wcpi = new WorkmansCompPreInterview();
+		WorkersCompPreInterview wcpi = new WorkersCompPreInterview();
 		
 		wcpi.produceReport();
 		
